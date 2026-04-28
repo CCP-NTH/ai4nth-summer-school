@@ -24,14 +24,3 @@ Website URL:
 ```text
 https://ccp-nth.github.io/ai4nth-summer-school/
 ```
-
-## Enable GitHub Pages
-
-In GitHub:
-
-1. Go to **Settings**
-2. Go to **Pages**
-3. Under **Build and deployment**, choose **Deploy from a branch**
-4. Branch: `main`
-5. Folder: `/root`
-6. Save

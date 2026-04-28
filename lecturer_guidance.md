@@ -3,7 +3,7 @@ layout: default
 title: Lecturer Guidance
 ---
 
-<main class="page">
+<main class="page" markdown="1">
 
 # Lecturer Guidance
 

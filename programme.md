@@ -3,7 +3,7 @@ layout: default
 title: Programme
 ---
 
-<main class="page">
+<main class="page" markdown="1">
 
 # Programme
 
