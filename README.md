@@ -13,6 +13,4 @@ This repository contains the GitHub Pages website for the **AI for Nuclear Therm
 
 ## GitHub Pages URL
 
-```text
 https://ccp-nth.github.io/ai4nth-summer-school/
-```
