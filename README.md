@@ -13,14 +13,6 @@ This repository contains the GitHub Pages website for the **AI for Nuclear Therm
 
 ## GitHub Pages URL
 
-Recommended lower-case repository name:
-
-```text
-ai4nth-summer-school
-```
-
-Website URL:
-
 ```text
 https://ccp-nth.github.io/ai4nth-summer-school/
 ```
