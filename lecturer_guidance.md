@@ -1,8 +1,11 @@
-# Lecturer Guidance
-
-[← Back to Home](README.md) | [Programme](programme.md)
-
 ---
+layout: default
+title: Lecturer Guidance
+---
+
+<main class="page">
+
+# Lecturer Guidance
 
 ## One-page Summary for Invited Lecturers
 
@@ -45,8 +48,6 @@ The school is **not** intended to be a broad AI survey.
 
 # Session Briefs
 
----
-
 ## Day 0 — Self-learning Technical Onboarding
 
 **Format:** Self-learning preparation pack before Day 1, with virtual organiser support.  
@@ -62,12 +63,6 @@ Ensure every participant can run the computing environment, open the notebooks, 
 - Notebook structure and file organisation
 - Dataset access and split files
 - Training domain, prediction domain, unsafe / out-of-domain region
-
-### Out of Scope
-
-- Substantive ML teaching
-- Method comparison or theory
-- Advanced coding tasks
 
 ### Outputs
 
@@ -92,21 +87,9 @@ Establish what kind of ML the school covers, where it fits in NTH, and what corr
 - Leakage, preprocessing, scaling, and metric choice
 - Domain-aware validation and common workflow failures
 
-### Out of Scope
-
-- Broad AI survey
-- Unsupervised-learning overview
-- Deep-learning survey
-- Proof-heavy statistical derivations
-
 ### Learning Outcomes
 
-Participants should be able to:
-
-- frame an engineering prediction problem as supervised learning
-- explain leakage and poor validation design
-- choose suitable regression metrics
-- distinguish in-domain from out-of-domain use
+Participants should be able to frame an engineering prediction problem as supervised learning, explain leakage, choose suitable regression metrics, and distinguish in-domain from out-of-domain use.
 
 ---
 
@@ -115,14 +98,6 @@ Participants should be able to:
 ### Purpose
 
 Build the first correct end-to-end workflow before introducing more complex models.
-
-### In Scope
-
-- Preprocessing
-- Train / validation / test split
-- Linear regression / Ridge regression
-- Parity and residual plots
-- Pipeline saving and reproducibility
 
 ### Outputs
 
@@ -133,34 +108,15 @@ Build the first correct end-to-end workflow before introducing more complex mode
 
 ---
 
-## Day 2 AM — Tree Ensembles
-
-### Purpose
-
-Teach practical workhorse methods for structured engineering data.
+## Day 2 — Tree Ensembles
 
 ### In Scope
 
 - Decision-tree intuition
 - Random Forest
 - Gradient Boosting
-- Why tree ensembles work well on tabular engineering data
 - Practical hyperparameters and limited-budget tuning
 - Regime-wise diagnostics and cautious interpretation tools
-
-### Out of Scope
-
-- Exhaustive hyperparameter theory
-- Library benchmarking wars
-- Advanced explainability methods as a major topic
-
----
-
-## Day 2 PM — Lab 2: Tree Ensemble Diagnostics
-
-### Purpose
-
-Move from “best score wins” to engineering comparison of model behaviour.
 
 ### Outputs
 
@@ -171,45 +127,15 @@ Move from “best score wins” to engineering comparison of model behaviour.
 
 ---
 
-## Day 3 AM — Surrogate Modelling and Gaussian Processes
+## Day 3 — Surrogate Modelling and Gaussian Processes
 
-### Lecture 3.1 — Surrogate Modelling
-
-**Purpose:** Introduce surrogate modelling as a distinct engineering task.
-
-#### In Scope
+### In Scope
 
 - Emulator versus reduced model
 - Simple regression surfaces, tree-based surrogates, GP surrogates, POD-style approaches
 - Inputs / outputs, scaling, coverage, validation in parameter space
-- Extrapolation and regime change
-
-### Lecture 3.2 — Gaussian Process Regression
-
-**Purpose:** Introduce GP regression as a practical surrogate model with prediction and uncertainty.
-
-#### In Scope
-
-- GP intuition
-- GP as a distribution over functions
-- Kernels as behaviour / smoothness assumptions
-- Mean prediction and uncertainty
+- GP intuition, kernels, mean prediction, and uncertainty
 - Interpolation versus extrapolation
-
-#### Out of Scope
-
-- Full Bayesian derivation
-- Advanced kernel design
-- Large-scale sparse GP methods
-- Heavy theoretical proofs
-
----
-
-## Day 3 PM — Lab 3: GP Surrogate and Extrapolation Testing
-
-### Purpose
-
-Make GP surrogate behaviour and limitations concrete.
 
 ### Outputs
 
@@ -220,11 +146,7 @@ Make GP surrogate behaviour and limitations concrete.
 
 ---
 
-## Day 4 AM — Neural Networks and Physics-based Guardrails
-
-### Purpose
-
-Demystify small tabular neural networks without turning the session into a deep-learning survey.
+## Day 4 — Neural Networks and Physics-based Guardrails
 
 ### In Scope
 
@@ -238,21 +160,6 @@ Demystify small tabular neural networks without turning the session into a deep-
   - monotonicity or sensitivity checks
   - inference-time rules
 
-### Out of Scope
-
-- PINNs as a core topic
-- Operator learning
-- Transformers
-- Broad deep-learning survey
-
----
-
-## Day 4 PM — Lab 4: Tabular Neural Network
-
-### Purpose
-
-Train a small MLP and evaluate it in engineering terms.
-
 ### Outputs
 
 - Trained small MLP
@@ -262,65 +169,21 @@ Train a small MLP and evaluate it in engineering terms.
 
 ---
 
-## Day 5 AM — VVUQ and Optimisation
+## Day 5 — VVUQ, Decision Support, and Optimisation
 
-### Lecture 5.1 — Introduction to VVUQ
-
-**Purpose:** Introduce uncertainty and credibility concepts for engineering decision-making in NTH.
-
-#### In Scope
+### In Scope
 
 - Why uncertainty matters in NTH decisions
-- Link between model output and engineering consequence
 - Aleatoric and epistemic uncertainty
-- Intuitive introduction to VVUQ
-- Trustworthiness beyond average accuracy
-
-### Lecture 5.2 — UQ for Decisions and Safety-critical ML
-
-**Purpose:** Show how uncertainty supports safer decisions and more trustworthy ML use.
-
-#### In Scope
-
-- Uncertainty in ML predictions
 - Calibration and coverage
-- Uncertainty-aware decision support
 - Safe-use, caution, and do-not-use logic
-- Validation and presentation of models for safety-conscious contexts
-- Credibility, trustworthiness, and limits of ML tools in NTH
-
-### Lecture 5.3 — Optimisation: Turning ML Models into Decisions
-
-**Purpose:** Show how trained ML models can be used in simple decision-support or optimisation workflows.
-
-#### In Scope
-
 - Simple constrained optimisation using a surrogate or ML model
 - Uncertainty-aware objective or filtering
 - Feasibility and validity checks
-- Difference between prediction and decision
 
----
+### Learning Outcomes
 
-## Day 5 PM — Guest Talks and Closing Discussion
-
-### Purpose
-
-Broaden participants’ perspective beyond the core curriculum and close the week with clear take-home lessons.
-
-### Suggested Structure
-
-- Short introduction
-- 3–4 guest talks
-- Q&A
-- Programme synthesis
-- Closing discussion
-
-### Guest Talks Should
-
-- Broaden perspective
-- Connect to realistic research or engineering applications
-- Avoid introducing major new required material
+Participants should understand how uncertainty can inform decisions, recognise the risks of optimisation without validity checks, and communicate model limitations responsibly.
 
 ---
 
@@ -348,3 +211,5 @@ Broaden participants’ perspective beyond the core curriculum and close the wee
 - Stable notebooks
 - No heavy compute or GPU dependence unless necessary
 - Practical workflows that run on standard laptops
+
+</main>

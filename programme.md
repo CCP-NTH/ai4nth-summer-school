@@ -1,8 +1,11 @@
-# Programme
-
-[← Back to Home](README.md) | [Lecturer Guidance](lecturer_guidance.md)
-
 ---
+layout: default
+title: Programme
+---
+
+<main class="page">
+
+# Programme
 
 ## AI for Nuclear Thermal Hydraulics Summer School  
 **13–17 July 2026 | STFC Daresbury Laboratory**
@@ -33,3 +36,5 @@ By the end of the week, participants should be able to:
 - train a small neural network for tabular data
 - assess uncertainty and domain validity
 - communicate model limitations and safe-use conditions
+
+</main>

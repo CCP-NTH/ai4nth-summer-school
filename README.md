@@ -1,70 +1,37 @@
-# AI for Nuclear Thermal Hydraulics Summer School
+# AI4NTH Summer School GitHub Pages Site
 
-**Agenda and Teaching Overview**  
-**13–17 July 2026 | STFC Daresbury Laboratory**  
-**Organised by CCP-NTH**
+This repository contains the GitHub Pages website for the **AI for Nuclear Thermal Hydraulics Summer School**.
 
----
+## Pages
 
-## Navigation
+- `index.md` — landing page
+- `programme.md` — programme and timetable
+- `lecturer_guidance.md` — lecturer guidance
+- `_layouts/default.html` — site layout with navigation bar
+- `assets/style.css` — custom styling
+- `assets/ccp-nth-logo-new-long.png` — editable placeholder logo
 
-- [Programme](programme.md)
-- [Lecturer Guidance](lecturer_guidance.md)
+## GitHub Pages URL
 
----
+Recommended lower-case repository name:
 
-## Overview
+```text
+ai4nth-summer-school
+```
 
-This 5-day summer school introduces machine learning as a **practical engineering tool** for nuclear thermal hydraulics (NTH).
+Website URL:
 
-The programme focuses on:
+```text
+https://ccp-nth.github.io/ai4nth-summer-school/
+```
 
-- supervised machine learning for structured engineering data
-- surrogate modelling for expensive simulations
-- uncertainty quantification and domain validity
-- safe and interpretable decision support
+## Enable GitHub Pages
 
-The main running example is:
+In GitHub:
 
-> **Critical Heat Flux (CHF) prediction from structured thermal-hydraulics data**
-
----
-
-## Audience
-
-The school is designed for researchers and engineers in nuclear thermal hydraulics with strong modelling and computational backgrounds, but limited prior experience in machine learning.
-
-Participants are expected to be comfortable with:
-
-- thermal-hydraulics modelling
-- numerical methods
-- Python / Jupyter notebooks
-- arrays, tables, plots, and simple regression metrics
-
-Prior experience with deep learning, advanced statistics, or GPU programming is not required.
-
----
-
-## Delivery Notes
-
-- In-person attendance only
-- Runs on standard laptops / PCs
-- No national HPC resources required
-- Pre-configured environment will be provided
-- All notebooks will be tested before delivery
-
----
-
-## Contacts
-
-- Prof. Michael Bluck — m.bluck@imperial.ac.uk
-- Dr Wei Wang — wei.wang@stfc.ac.uk
-- Dr Yu Duan — yu.duan@sheffield.ac.uk / y.duan@imperial.ac.uk
-
----
-
-## Teaching Assistants
-
-- Dr Wei Wang
-- Dr Yu Duan
-- Mr Sebastian Fernandez Ruiz de las Cuevas
+1. Go to **Settings**
+2. Go to **Pages**
+3. Under **Build and deployment**, choose **Deploy from a branch**
+4. Branch: `main`
+5. Folder: `/root`
+6. Save
