@@ -1,4 +1,6 @@
 title: AI4NTH Summer School
 description: AI for Nuclear Thermal Hydraulics Summer School
+url: https://ccp-nth.github.io
+baseurl: /ai4nth-summer-school
 markdown: kramdown
 theme: null

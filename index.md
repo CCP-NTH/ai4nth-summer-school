@@ -12,8 +12,8 @@ title: Home
       for nuclear thermal hydraulics.
     </p>
     <div class="hero-actions">
-      <a class="button button-primary" href="programme.html">View Programme</a>
-      <a class="button button-secondary" href="lecturer_guidance.html">Lecturer Guidance</a>
+      <a class="button button-primary" href="{{ '/programme.html' | relative_url }}">View Programme</a>
+      <a class="button button-secondary" href="{{ '/lecturer_guidance.html' | relative_url }}">Lecturer Guidance</a>
     </div>
   </div>
 </section>
